@@ -7,12 +7,12 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    path: path.resolve(__dirname, '../../Output/Content/Scripts/DashboardReport/'),
+    path: path.resolve(__dirname, 'output'),
     filename: '[name].bundle.js',
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, "../../Output/Content/Scripts/DashboardReport/"),
+      directory: path.join(__dirname, "src"),
     },
     port: 3000,
   },
