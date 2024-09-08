@@ -21,7 +21,7 @@ const FlipCard: React.FC<{
     <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <Image src="cricket.jpg" alt="Card Front" width={200} height={300} />
+          <Image src="cricket.jpg" alt="Card Front" width={250} height={350} />
         </div>
         <div className="flip-card-back">
             <Stack verticalAlign="center" horizontalAlign="center" styles={{ root: { height: '100%' } }}>

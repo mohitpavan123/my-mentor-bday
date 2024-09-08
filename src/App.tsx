@@ -2,21 +2,45 @@ import React, { useState } from 'react';
 import BasicWishes from './BasicWishes';
 import Messages from './Messages';
 import CricketQuiz from './CricketQuiz';
+import Memories from './Memories';
+import YouTubeVideo from './YouTubeVideoWishes';
 import { PrimaryButton, Stack } from '@fluentui/react';
 
 const App: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState<number>(1);
+  // const [currentPage, setCurrentPage] = useState<number>(1);
 
-  const handlePageChange = (page: number) => {
-    setCurrentPage(page);
-  };
+  // const handlePageChange = (page: number) => {
+  //   setCurrentPage(page);
+  // };
 
   return (
-    <div style={{ position: 'relative' }}>
-      <div style={{}}> {/* Space for footer */}
+    <div style={{ position: 'relative', backgroundColor: '#f3f3f3' }}>
+      <div>
         <BasicWishes />
-        <Messages />
+        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Wishes </h1>
+        <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
+          "Here are our best wishes for you mentor!"
+        </h4>
+        <Messages/>
+        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Cric-Quiz </h1>
+        <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
+          "Because you like cricket, here is a quiz for you on the same, flip the card to see the question and click on the see answer button to view the answer!"
+        </h4>
         <CricketQuiz />
+        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Memories together </h1>
+        <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
+          "Flip the cards to remember the good times we all had together and flip back to open the image!"
+        </h4>
+        <Memories />
+        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> A small dare awaits you </h1>
+        <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
+          "Prank call to sulabh/prativen and act you are a HR and talk random topic which ever you want :p"
+        </h4>
+        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> A small youtube video wishes for you! </h1>
+        <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
+          "Finally lets end this fun with a video to wish you a very happy birthday!"
+        </h4>
+        <YouTubeVideo />
       </div>
 {/*       
       <footer style={{ 

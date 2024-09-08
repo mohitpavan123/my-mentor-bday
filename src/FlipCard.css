@@ -1,8 +1,15 @@
 .flip-card {
     background-color: transparent;
     perspective: 1000px;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
+  }
+  
+  .flip-card-memories {
+    background-color: transparent;
+    perspective: 1000px;
+    width: 450px;
+    height: 650px;
   }
   
   .flip-card-inner {
@@ -14,6 +21,10 @@
   }
   
   .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-memories.flipped .flip-card-inner {
     transform: rotateY(180deg);
   }
   
