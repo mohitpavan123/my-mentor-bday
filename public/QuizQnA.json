@@ -1,14 +1,30 @@
 [
   {
-    "question": "What is the capital of India?",
-    "answer" : "New Delhi"
+    "question": "Which country won the first-ever Cricket World Cup in 1975?",
+    "answer" : "West indies"
   },
   {
-    "question": "What is the capital of India?",
-    "answer" : "New Delhi"
+    "question": "Who holds the record for the fastest century in ODI/T20 cricket?",
+    "answer" : "AB de villiers in 31 balls/ chris gayle in 30 balls."
   },
   {
-    "question": "What is the capital of India?",
-    "answer" : "New Delhi"
+    "question": "Which cricketer has taken the most wickets in Test matches?",
+    "answer" : "Muttiah Muralitharan 800 wickets."
+  },
+  {
+    "question": "Which cricketer has taken the most wickets in Test matches?",
+    "answer" : "Muttiah Muralitharan 800 wickets."
+  },
+  {
+    "question": "In which year was the Indian Premier League (IPL) launched?",
+    "answer" : "2008"
+  },
+  {
+    "question": "Who is the only player to have scored 10,000 runs in Test matches?",
+    "answer" : "Sachin Tendulkar"
+  },
+  {
+    "question": "Who is the only cricketer to have scored 100 international centuries?",
+    "answer": "Sachin Tendulkarwith virat standing next to him with 80 centuries."
   }
 ]
