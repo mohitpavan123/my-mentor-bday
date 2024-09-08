@@ -21,13 +21,13 @@ const FlipCard: React.FC<{
     <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <Image src="cricket.jpg" alt="Card Front" width={250} height={350} />
+          <Image src="cricket.jpg" alt="Card Front" width={300} height={400} />
         </div>
         <div className="flip-card-back">
             <Stack verticalAlign="center" horizontalAlign="center" styles={{ root: { height: '100%' } }}>
-                <Text variant="xxLarge">{question}</Text>
+                <Text variant="xLarge">{question}</Text>
                 {!isAnsShown && <PrimaryButton text="Show ans" onClick={handleAnsButtonClick}/>}
-                {isAnsShown && <Text variant="xxLarge">Answer: {answer}</Text>}
+                {isAnsShown && <Text variant="xLarge">Answer: {answer}</Text>}
             </Stack>
         </div>
       </div>

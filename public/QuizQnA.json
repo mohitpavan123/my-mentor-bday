@@ -25,6 +25,18 @@
   },
   {
     "question": "Who is the only cricketer to have scored 100 international centuries?",
-    "answer": "Sachin Tendulkarwith virat standing next to him with 80 centuries."
+    "answer": "Sachin Tendulkar with virat standing next to him with 80 centuries."
+  },
+  {
+    "question": "Which bowler holds the record for the most wickets in a single ODI World Cup?",
+    "answer": "Mtchell starc with 27 wickets." 
+  },
+  {
+    "question": "Who is the only cricketer to have scored a century in all three formats of the game?",
+    "answer": "Suresh Raina"
+  },
+  {
+    "question": "Which cricketer has the most runs in T20 International cricket?",
+    "answer": "Virak kohli"
   }
 ]
