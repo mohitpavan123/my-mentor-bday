@@ -48,6 +48,12 @@ module.exports = {
           to({ context, absoluteFilename }) {
             return path.basename(absoluteFilename);
           }
+        },
+        {
+          from: 'public/*.webp', 
+          to({ context, absoluteFilename }) {
+            return path.basename(absoluteFilename);
+          }
         }
       ],
     }),
