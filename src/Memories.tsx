@@ -5,9 +5,16 @@ import FlipCardMemories from './FlipCardForMemories';
 
 const Memories: React.FC = () => {
   return (
-    <Stack horizontal tokens={{ childrenGap: 100 }} styles={{ root: { backgroundColor: '#f3f3f3', alignItems : 'center', justifyContent : 'center', paddingBottom : '100px' } }}>
+    <Stack horizontal wrap tokens={{ childrenGap: 100 }} styles={{ root: { backgroundColor: '#f3f3f3', alignItems : 'center', justifyContent : 'center', paddingBottom : '100px' } }}>
       {MemoriesJson.map((QnA : {image : string; memory : string;}, index) => (
+        <Stack.Item
+          grow
+          disableShrink
+          styles={{ root: { width: '25%', maxWidth: '40%', marginBottom: '50px', display: 'flex', justifyContent: 'center', alignItems : 'center' } }} 
+          key={index}
+        >
           <FlipCardMemories key={index} image={QnA.image} memory={QnA.memory} />
+        </Stack.Item>
       ))}
     </Stack>
   );

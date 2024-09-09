@@ -10,7 +10,7 @@ const CricketQuiz: React.FC = () => {
         <Stack.Item
           grow
           disableShrink
-          styles={{ root: { width: '20%', maxWidth: '300px', marginBottom: '50px', display: 'flex', justifyContent: 'center', alignItems : 'center' } }} 
+          styles={{ root: { width: '20%', maxWidth: '30%', marginBottom: '50px', display: 'flex', justifyContent: 'center', alignItems : 'center' } }} 
           key={index}
         >
           <FlipCard question={QnA.question} answer={QnA.answer} />

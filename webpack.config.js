@@ -32,6 +32,12 @@ module.exports = {
           }
         },
         { 
+          from: 'public/*.png', 
+          to({ context, absoluteFilename }) {
+            return path.basename(absoluteFilename);
+          }
+        },
+        { 
           from: 'public/*.jpeg',
           to({ context, absoluteFilename }) {
             return path.basename(absoluteFilename);

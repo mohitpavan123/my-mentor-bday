@@ -8,5 +8,25 @@
     "name": "Brite",
     "Message": "Happy Birthday from all of us 🎉🎂🎈",
     "pic" : "Brite-wishes.jpg"
+  },
+  {
+    "name": "Pratibha",
+    "Message": "Happy birthday! Happy you! Happy everything!",
+    "pic": "prativen-wishes.png"
+  },
+  {
+    "name" : "Saloni",
+    "Message": "Happiest Birthday Radhika! Its always a pleasant experience to work with you and looking forward to many more collaborative projects with you. Keep rocking and have a blast this year 🎉🎉",
+    "pic": "saloni-wishes.gif"
+  },
+  {
+    "name": "Mitesh",
+    "Message": "Hey Radhika,Happy Birthday & Many Many Happy Returns of the Day!! Thanks for being an amazing partner (read: co-conspirator) on multiple items, being a rock (& a rockstar) on the team, and always being super helpful! Your calm and composure is something truly amazing! I truly enjoy working with you and learning from you and hope to do the same even more!",
+    "pic": "mitesh-wishes.gif"
+  },
+  {
+    "name": "Harshan",
+    "pic": "harshan-wishes.gif",
+    "Message": "Happy birthday, Radhika! Wishing you many more happy returns of the day!! Looking forward to continuing collaboration with you in the future!"
   }
 ]
